@@ -10,17 +10,19 @@
     			<h2>Título: <xsl:value-of select="cancion/titulo"/></h2>
     			<br/>
                 <xsl:for-each select="cancion/letra/estrofa">
-    	            <xsl:if test="tipo &#61; 'normal'">
-                        <span>NORMAL</span>
-                    </xsl:if>
-                    <xsl:if test="tipo &#61; 'estribillo'">
-                        <span>ESTRIBILLO</span>
-                    </xsl:if>
-                    <xsl:for-each select="verso">
-                        <p>
-                            <xsl:value-of select="."/>
-                        </p>
-                    </xsl:for-each>  
+                	<div>
+    	                <xsl:if test="tipo &#61; 'normal'">
+                            <span>NORMAL</span>
+                        </xsl:if>
+                        <xsl:if test="tipo &#61; 'estribillo'">
+                            <span>ESTRIBILLO</span>
+                        </xsl:if>
+                        <xsl:for-each select="verso">
+                            <p>
+                                <xsl:value-of select="."/>
+                           </p>
+                        </xsl:for-each>  
+                    </div>
                     <br/>
                 </xsl:for-each> 
                 <p>(Autor: <xsl:value-of select="cancion/autor"/>)</p>

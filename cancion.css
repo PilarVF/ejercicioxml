@@ -1,10 +1,10 @@
 body {
-    counter-reset: section;
+    counter-reset: estrofa;
 }
 
 span::before {
-    counter-increment: section;
-    content: "ESTROFA " counter(section) ": ";
+    counter-increment: estrofa;
+    content: "ESTROFA " counter(estrofa) ": ";
 }
 
 h1 {
