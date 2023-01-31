@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="cancion.xsl"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="micasa.xsd">
+	<titulo>Esa será mi casa</titulo>
+	<autor>Nino Bravo</autor>
+	<letra>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>Un libro quedará abierto</verso>
+			<verso>Una carta sin escribir</verso>
+			<verso>De un árbol caerá una hoja</verso>
+			<verso>Y yo me alejaré de ti</verso>			
+		</estrofa>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>Allí quedará mi silla</verso>
+			<verso>Sin que nadie se siente en ella</verso>
+			<verso>Allí quedará mi amor</verso>
+			<verso>Entre las paredes viejas</verso>			
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando me vaya yo</verso>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando te diga adiós</verso>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando te diga adiós</verso>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando me vaya yo</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>El polvo sobre los muebles</verso>
+			<verso>Cubre nuestras huellas</verso>	
+			<verso>El viento borra el recuerdo</verso>	
+			<verso>Llevándose nuestro amor</verso>		
+		</estrofa>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>Un cirio sin consumir</verso>
+			<verso>Caerá sobre la mesa</verso>	
+			<verso>Se apagará su luz</verso>	
+			<verso>Y se cerrará una puerta</verso>		
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando me vaya yo</verso>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando te diga adiós</verso>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando te diga adiós</verso>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando me vaya yo</verso>
+		</estrofa>
+	    <estrofa>
+	    	<tipo>estribillo</tipo>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando me vaya yo</verso>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando te diga adiós</verso>
+			<verso>Esa será mi casa</verso>
+			<verso>Cuando me vaya yo</verso>
+			<verso>Largo será el camino</verso>
+			<verso>En mi desolación</verso>
+			<verso>Largo será el camino</verso>
+			<verso>En mi desolación</verso>
+		</estrofa>
+	</letra>
+</cancion>
